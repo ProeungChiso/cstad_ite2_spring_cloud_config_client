@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/credentials")
 public class ClientController {
 
-    @Value("${info}")
+    @Value("${username}")
     private String serviceInfo;
 
     @GetMapping
